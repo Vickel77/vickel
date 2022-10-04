@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><% htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="Fullstack Software Engineer" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <!-- <script src="./bundle.js" defer></script>
+  <script defer src="runtime.js"></script><script defer src="bundle.js"></script><script defer src="runtime.js"></script><script defer src="bundle.js"></script> -->
+</head>
+  <body data-theme="dark">
+    <div  id="loader" class="loader">
+      <div class="logo">
+        <!-- <img src="" alt="" /> -->
+        <p>Vickel<span>.</span></p>
+      </div>
+    </div>
+    <div data-scroll-container class="container" >
+      <header id="header" data-scroll-section class="header">
+        <nav class="nav">
+          <div class="logo">
+            <!-- <img src="" alt="" /> -->
+            <p>Vickel<span>.</span></p>
+          </div>
+          <section class="nav-items">
+            <a href="#about-section" class="nav-item">About</a>
+            <a href="#works-section" class="nav-item">Works</a>
+            <a href="#contact-section" class="nav-item">Contact</a>
+          </section>
+        </nav>
+        <section class="main-header">
+          <aside class="header-left">
+            <div data-scroll data-scroll-speed="2" class="header-image">
+              <img id="header-img" src="./assets/images/header-img.png" alt="Kelechi Aligwo" />
+            </div>
+            <div data-scroll data-scroll-speed="2" class="header-image-sm">
+              <img id="header-img-sm" src="./assets/images/header-img-sm.png" alt="Kelechi Aligwo" />
+            </div>
+
+            <h1 data-scroll data-scroll-speed="-2" class="name">KELECHI ALIGWO</h1>
+            <div class="socials show-lg">
+              <a href="/github.com/vickel77" target="_blank">
+                <i data-feather="github"></i>
+              </a>
+              <a href="/" target="_blank">
+                <i data-feather="facebook"></i>
+              </a>
+              <a href="/" target="_blank">
+                <i data-feather="linkedin"></i>
+              </a>
+              <a href="/" target="_blank">
+                <i data-feather="youtube"></i>
+              </a>
+            </div>
+          </aside>
+          <aside class="header-right">
+          
+            <div class="content">
+              <em> Software Engineer, Designer, Pianist </em>
+              <p>
+                Currently focused on building highly scalable and accessible
+                user centered Software products
+              </p>
+              <button id="say-hi" data-scroll data-scroll-class="appear" class="primary-button">
+                say Hi
+                👋
+              </button>
+              <div class="socials show-sm">
+                <a href="https://github.com/vickel77" target="_blank">
+                  <i data-feather="github"></i>
+                </a>
+                <a href="https://facebook.com/kelechi.aligwo" target="_blank">
+                  <i data-feather="facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kelechi-aligwo-524885215/" target="_blank">
+                  <i data-feather="linkedin"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCXyvGYaofgNn3wDWSXUagbA" target="_blank">
+                  <i data-feather="youtube"></i>
+                </a>
+              </div>
+              <div class="plus-icon">
+                <i data-feather="plus"></i>
+              </div>
+              <div class="circle-icon" />
+            </div>
+          </aside>
+        </section>
+        <div class="scroll-info">
+          scroll
+          <div class="scroll-info-bar" />
+        </div>
+      </header>
+      <main>
+        <section data-scroll-section class="services">
+          <div data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal" data-scroll-class="appear" data-scroll-repeat="true" class="section-header-text">
+            <h3>Services</h3>
+          </div>
+          <aside>
+            <div data-scroll data-scroll-speed="0.5" class="service-card">
+              <span><i data-feather="feather"></i></span>
+              <h4>UI design</h4>
+              <p>Great background in UI design and Graphic design</p>
+            </div>
+            <div data-scroll data-scroll-speed="-0.1" class="service-card">
+              <span><i data-feather="layout"></i></span>
+              <h4>Frontend</h4>
+              <p>Great background in UI design and Graphic design</p>
+            </div>
+            <div data-scroll data-scroll-speed="0.2" class="service-card">
+              <span><i data-feather="package"></i></span>
+              
+              <h4>Backend</h4>
+              <p>Great background in UI design and Graphic design</p>
+            </div>
+          </aside>
+        </section>
+        <section data-scroll-section class="about" id="about-section">
+          <div data-scroll data-scroll-class="appear" data-scroll-repeat="true" class="section-header-text">
+            <h3>About Me</h3>
+          </div>
+          <sub class="about-content">
+            <article class="about-info">
+              <p>
+                Hello! My name is Kelechi and I'm a creative with a dogged
+                passion for Tech and Music. My journey in coding started in 2018
+                when I decided to learn how to create websites, and i delveoped
+                an unsual flare for coding, which has since evolved and moved me
+                to Here are a few technologies I’ve been working with recently:
+              </p>
+              <div class="pill-wrap">
+                <div  class="pill">JavaScript (ES6+)</div>
+                <div  class="pill">TypeScript</div>
+                <div  class="pill">React</div>
+                <div  class="pill">Node.js</div>
+              </div>
+              <div  class="experience">
+                <div class="experience-card">
+                  <p>
+                    5
+                    <span>Year(s) experience</span>
+                  </p>
+                  <h4>Frontend</h4>
+                </div>
+                <div class="experience-card">
+                  <p>
+                    1
+                    <span>Year(s) experience</span>
+                  </p>
+                  <h4>Backend</h4>
+                </div>
+                <div class="experience-card">
+                  <p>
+                    3
+                    <span>Year(s) experience</span>
+                  </p>
+                  <h4>Design</h4>
+                </div>
+                <div class="experience-card">
+                  <p>
+                    9
+                    <span>Year(s) experience</span>
+                  </p>
+                  <h4>Piano</h4>
+                </div>
+              </div>
+            </article>
+            <aside class="about-image" data-scroll data-scroll-class="appear-left" data-scroll-repeat="true">
+              <img id="about-img" src="./assets/images/abuot.png" alt="Kelechi Aligwo" />
+            </aside>
+          </sub>
+        </section>
+        <section data-scroll-section class="projects" id="works-section">
+          <div  data-scroll data-scroll-class="appear" class="section-header-text">
+            <h3>Projects</h3>
+          </div>
+          <aside class="projects-wrap x mandatory-scroll-snapping">
+            <div class="project">
+              <div class="project-image">
+                <a href="https://jamselect.com">
+                  <img id="project1-img" src="./assets/images/project-1.jpg" alt="Jamselect" width="100%" />
+                </a>
+              </div>
+              <div class="project-right">
+                <div class="project-title">
+                  <h4>Jamselect</h4>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Music is meant to be shared, <br />
+                    Discover, share adn find the music you love
+                  </p>
+                  <em class="project-link">
+                    <a href="https://jamselect.com">
+                      <i data-feather="arrow-up-right"></i>
+                      jamselect.com
+                    </a>
+                  </em>
+                </div>
+                <div class="pill-wrap">
+                  <div id="pill-one" class="pill">JavaScript (ES6+)</div>
+                  <div class="pill">TypeScript</div>
+                  <div class="pill">React</div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-image">
+                <a href="#">
+                  <img id="project2-img" src="./assets/images/project-1.jpg" alt="Jamselect" width="100%" />
+                </a>
+              </div>
+              <div class="project-right">
+                <div class="project-title">
+                  <h4>Jamselect</h4>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Music is meant to be shared, <br />
+                    Discover, share adn find the music you love
+                  </p>
+                  <em class="project-link">
+                    <a href="#">
+                      <i data-feather="arrow-up-right"></i>
+                      jamselect.com
+                    </a>
+                  </em>
+                </div>
+                <div class="pill-wrap">
+                  <div class="pill">JavaScript (ES6+)</div>
+                  <div class="pill">TypeScript</div>
+                  <div class="pill">React</div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-image">
+                <a href="https://materialspro.ng">
+                  <img id="project3-img" src="./assets/images/project-1.jpg" alt="Jamselect" width="100%" />
+                </a>
+              </div>
+              <div class="project-right">
+                <div class="project-title">
+                  <h4>MaterialsPro</h4>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Access bulk building materials, <br />
+                    Discover, share adn find the music you love
+                  </p>
+                  <em class="project-link">
+                    <a href="https://materialspro.ng">
+                      <i data-feather="arrow-up-right"></i>
+                      materialspro.ng
+                    </a>
+                  </em>
+                </div>
+                <div class="pill-wrap">
+                  <div class="pill">JavaScript (ES6+)</div>
+                  <div class="pill">TypeScript</div>
+                  <div class="pill">React</div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </main>
+      <footer data-scroll-section class="footer" id="contact-section">
+        <aside class="cta-card">
+          <div class="cta-info">
+            <h3>Let's collaborate on your next project</h3>
+          </div>
+          <a href="mailto:kelechialigwo77@gmail.com"></a>
+          <button data-scroll data-scroll-class="appear" class="primary-button">Let's Talk</button>
+        </aside>
+        <div data-scroll data-scroll-class="appear" data-scroll-repeat="true" class="section-header-text">
+          <h3> Get in Touch</h3>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/vickel77" target="_blank">
+            <i data-feather="github"></i>
+          </a>
+          <a href="https://facebook.com/kelechi.aligwo" target="_blank">
+            <i data-feather="facebook"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kelechi-aligwo-524885215/" target="_blank">
+            <i data-feather="linkedin"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCXyvGYaofgNn3wDWSXUagbA" target="_blank">
+            <i data-feather="youtube"></i>
+          </a>
+        </div>
+      </footer>
+      <div class="cursor" />
+    </div>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

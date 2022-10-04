@@ -1,0 +1,135 @@
+@media (max-width: 767px) {
+  .header {
+    height: auto;
+    padding-inline: 0;
+  }
+  .nav {
+    top: 2%;
+    padding: 1rem 1rem;
+    font-size: 0.75rem;
+  }
+  .main-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+  }
+  .main-header > * {
+    height: auto;
+    padding: 0 3rem;
+  }
+  .main-header > .header-left {
+    /* height: 90vh; */
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 7rem;
+  }
+  .main-header > .header-left .header-image {
+    /* width: 300px; */
+    display: none;
+  }
+  .header-image-sm {
+    display: block;
+    text-align: center;
+  }
+  .header-image-sm img {
+    box-shadow: 7px 7px 14px #171517, -7px -7px 14px #2d272d;
+    border: 3px solid var(--backgroundAccent);
+    border-radius: 50%;
+    width: 70%;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .header-right {
+    height: auto;
+    background-color: var(--backgroundAccent);
+    margin-left: 0rem;
+    margin-top: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .section-header-text {
+    margin-left: 2rem;
+  }
+  .header-right .primary-button {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .socials {
+    margin-top: 5rem;
+  }
+  .socials > a {
+    text-align: center;
+    padding: 1rem 0.5rem 0.5rem;
+  }
+  .scroll-info {
+    bottom: 2%;
+  }
+  .plus-icon {
+    color: var(--white);
+    position: absolute;
+    left: -15.5%;
+    top: -15%;
+    opacity: 0.1;
+  }
+
+  /* ABOUT */
+
+  .about {
+    padding: 2rem 2rem 0;
+  }
+
+  .about-content {
+    margin-top: 3rem;
+  }
+  .experience {
+    gap: 1.5rem;
+  }
+  .pill-wrap {
+    gap: 0.7rem;
+  }
+  .pill {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.5rem;
+  }
+  .about-image img {
+    width: 300px;
+  }
+  /* PROJECTS */
+  .projects {
+    height: auto;
+  }
+  .project {
+    flex-flow: row wrap;
+  }
+  .project-image img {
+    height: 250px;
+    width: auto;
+  }
+  .show-lg {
+    display: none;
+  }
+  .show-sm {
+    display: block;
+  }
+  /* FOOTER */
+  .cta-card {
+    padding: 3rem 1rem;
+    justify-content: center;
+  }
+  .cta-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 456px) {
+  .cursor {
+    display: none;
+  }
+}
