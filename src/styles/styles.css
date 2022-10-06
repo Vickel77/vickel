@@ -178,7 +178,7 @@ button {
 .main-header > .header-left .header-image {
   position: absolute;
   bottom: 0;
-  left: 27.5%;
+  left: 30%;
   display: block;
 }
 .header-image-sm {
@@ -209,7 +209,7 @@ button {
 }
 .socials > a {
   text-align: center;
-  padding: 1.5rem 1rem 1rem;
+  padding: 1.1rem;
   box-shadow: 7px 7px 14px #171517, -7px -7px 14px #2d272d;
   transition: 0.25s;
   border: 1px solid var(--grey);
@@ -219,6 +219,7 @@ button {
 .socials > a:hover {
   box-shadow: none;
   /* transform: scale(2); */
+  background-color: var(--backgroundAccent);
   border: 1px solid var(--primary);
 }
 .socials > a:not(:last-child) {
@@ -291,6 +292,13 @@ button {
   font-size: 1.5rem;
   opacity: 0;
   box-shadow: 0 3px 10px #000000;
+  border: 1px solid transparent;
+  transition: 0.25s;
+}
+.primary-button:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  transform: scale(1.1);
 }
 
 .scroll-info {
